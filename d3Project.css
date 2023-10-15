@@ -1,0 +1,33 @@
+.btn{
+    margin:20px auto;
+}
+
+.container-fluid{
+    display: block;
+    padding: 0 20%;
+}
+
+#scatter,#map,#heat,#treeCon{
+    display:none;
+    margin: 20px 100px;
+}
+
+#bar{
+    margin: 20px 100px;
+}
+
+@media screen and (max-width:600px){
+    .btn{
+        margin:5px auto;
+    }
+    
+    .container-fluid{
+        display: block;
+        padding:0 10px;
+    }
+
+    #scatter,#map,#heat,#treeCon{
+        display:none;
+        margin: 20px;
+    }
+}
