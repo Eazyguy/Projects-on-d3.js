@@ -1,12 +1,12 @@
 Promise.all([
-    d3.json('d3json.json'),
-    d3.json('Heatjson.json'),
-    d3.json('geojson.json'),
-    d3.json('mapdata.json'),
-    d3.json('scatterjson.json'),
-    d3.json('videoGameSales.json'),
-    d3.json('Movies.json'),
-    d3.json('kickStarter.json')
+    d3.json('Data/d3json.json'),
+    d3.json('Data/Heatjson.json'),
+    d3.json('Data/geojson.json'),
+    d3.json('Data/mapdata.json'),
+    d3.json('Data/scatterjson.json'),
+    d3.json('Data/videoGameSales.json'),
+    d3.json('Data/Movies.json'),
+    d3.json('Data/kickStarter.json')
 ]).then((data)=>{
     const barData = data[0]
     const heatData = data[1]
